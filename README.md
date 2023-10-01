@@ -110,3 +110,32 @@ then (no need on Manjaro at least):
 `systemctl enable systemd-resolved.service`
 
 netns-exec (user space netns for vpn work)
+
+# Better fonts
+On /etc/environment
+`FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"`
+
+# Electron apps
+Flag for using wayland + middle click scroll
+`--enable-features=UseOzonePlatform --ozone-platform=wayland --enable-blink-features=MiddleClickAutoscroll`
+
+# Flags and envs for chromium and firefox
+Flags útiles chromium:
+
+`--use-gl=desktop --enable-features=VaapiVideoDecoder,VaapiVideoEncoder,CanvasOopRasterization --disable-features=UseChromeOSDirectVideoDecoder,UseOzonePlatform --ignore-gpu-blocklist --disable-gpu-driver-bug-workarounds --enable-gpu-rasterization --canvas-oop-rasterization --enable-zero-copy %U`
+env útiles Firefox:
+
+MOZ_ENABLE_WAYLAND=1 (should be on /etc/enviroment)
+
+# Nvidia hardware decode acceleration
+https://github.com/elFarto/nvidia-vaapi-driver
+
+# Wayland workarrounds
+Jellyfin media player (flatpak o jellyfin-media-player) con flag: --disable-gpu
+
+# Recommended Flatpaks (Installed via "Discovery")
+Plex
+Jellyfin Media Player
+Discord
+OBS
+Zoom
