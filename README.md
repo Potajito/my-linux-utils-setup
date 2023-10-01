@@ -70,6 +70,8 @@ gpu-screen-recorder-gtk
 
 xpadneo (si tienes mando de xbox one, si tienes de 360 usa xboxdrv-stable-git si tienes genérico puede que funcione sin más o con este último)
 
+peek (make gifs from screen)
+
 # Packages for wayland
 plasma-wayland-session
 
@@ -137,6 +139,15 @@ Jellyfin media player (flatpak o jellyfin-media-player) con flag: --disable-gpu
 Plex
 
 Jellyfin Media Player
+
+# My hardware
+polycrhomatic, open razer
+
+it87-dkms-git (sensores placa)
+
+zenpower3-dkms
+
+https://codeberg.org/rtcqs/rtcqs para ver que el realtime y el audio tal esten en su sitio
 
 Discord
 
