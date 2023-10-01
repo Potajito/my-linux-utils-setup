@@ -153,6 +153,12 @@ Plex
 
 Jellyfin Media Player
 
+Discord (better to use PWA for firefox)
+
+OBS
+
+Zoom
+
 # My hardware
 polycrhomatic, open razer
 
@@ -161,9 +167,3 @@ it87-dkms-git (sensores placa)
 zenpower3-dkms
 
 https://codeberg.org/rtcqs/rtcqs para ver que el realtime y el audio tal esten en su sitio
-
-Discord
-
-OBS
-
-Zoom
