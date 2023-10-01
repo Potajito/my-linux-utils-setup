@@ -3,7 +3,9 @@ Useful packages and instructions when setting up linux
 
 # Packages
 breeze-gtkv
+
 breeze-plymouth
+
 dolphin-plugins
 xdg-desktop-portal-kde
 gamemode
