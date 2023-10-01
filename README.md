@@ -68,7 +68,7 @@ spectacle (screenshots, seguramente esté ya instalado)
 
 gpu-screen-recorder-gtk
 
-xpadneo (si tienes mando de xbox one, si tienes de 360 usa xboxdrv-stable-git si tienes genérico puede que funcione sin más o con este último)
+xpadneo (si tienes mando de xbox one, si tienes de 360 usa xpad-dkms-git si tienes genérico puede que funcione sin más o con este último)
 
 peek (make gifs from screen)
 
