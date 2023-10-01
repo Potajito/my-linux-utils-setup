@@ -103,6 +103,18 @@ lib32-pipewire-jack
 
 lib32-pipewire-v4l2
 
+If on Nvidia, make sure drm.mode.set is configured (should be automatic if propietary nvidia driver installed):
+`
+Add the kernel-parameter
+
+open the /etc/default/grub-file, like this: sudo nano /etc/default/grub and find the following: GRUB_CMDLINE_LINUX_DEFAULT=. There should already be some parameters, but you should add one: nvidia-drm.modeset=1. For me, the line looks like this:
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet udev.log_priority=3 nvidia-drm.modeset=1"
+
+    Note: It doesn't have to look the same for you.
+
+After that, run sudo grub-mkconfig -o /boot/grub/grub.cfg to update grub. Now you should reboot.`
+
 # VPN things
 dhcpcd (endevour/arch, comes already with Manjaro)
 
