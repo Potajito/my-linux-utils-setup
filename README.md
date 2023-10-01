@@ -8,6 +8,8 @@ breeze-plymouth
 
 dolphin-plugins
 
+xdg-desktop-portal-gnome (fuentes no mierdas en flatpaks)
+
 xdg-desktop-portal-kde
 
 gamemode
