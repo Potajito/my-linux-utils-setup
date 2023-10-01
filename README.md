@@ -113,7 +113,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet udev.log_priority=3 nvidia-drm.modeset=1"
 
     Note: It doesn't have to look the same for you.
 
-After that, run sudo grub-mkconfig -o /boot/grub/grub.cfg to update grub. Now you should reboot.`
+After that, run "sudo update-grub" to update grub. Now you should reboot.`
 
 # VPN things
 dhcpcd (endevour/arch, comes already with Manjaro)
