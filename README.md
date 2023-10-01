@@ -114,6 +114,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet udev.log_priority=3 nvidia-drm.modeset=1"
     Note: It doesn't have to look the same for you.
 
 After that, run "sudo update-grub" to update grub. Now you should reboot.`
+Then you should see a new login option (wayland) on your login screen (set login manager to remember last used, Log off, log in again in wayland)
 
 # VPN things
 dhcpcd (endevour/arch, comes already with Manjaro)
