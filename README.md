@@ -135,7 +135,11 @@ Jellyfin media player (flatpak o jellyfin-media-player) con flag: --disable-gpu
 
 # Recommended Flatpaks (Installed via "Discovery")
 Plex
+
 Jellyfin Media Player
+
 Discord
+
 OBS
+
 Zoom
