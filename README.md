@@ -106,6 +106,7 @@ dhcpcd (endevour/arch, comes already with Manjaro)
 
 then (no need on Manjaro at least):
 `systemctl status systemd-resolved.service
+
 systemctl enable systemd-resolved.service`
 
 netns-exec (user space netns for vpn work)
