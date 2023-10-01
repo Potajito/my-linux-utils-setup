@@ -2,7 +2,7 @@
 Useful packages and instructions when setting up linux
 
 # Packages
-breeze-gtkv
+breeze-gtk
 
 breeze-plymouth
 
