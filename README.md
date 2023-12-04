@@ -180,3 +180,7 @@ it87-dkms-git (sensores placa)
 zenpower3-dkms
 
 https://codeberg.org/rtcqs/rtcqs para ver que el realtime y el audio tal esten en su sitio
+
+# Fonts
+
+https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7
