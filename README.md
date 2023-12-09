@@ -204,6 +204,13 @@ noto-fonts-extra
 ttf-ms-fonts
 ttf-google
 
+Change font in vencord, in css settings:
+::placeholder, body, button, input, select, textarea {
+    font-family: "Noto Sans";
+    text-rendering: optimizeLegibility;
+}
+
+
 Alternativa:
 https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7
 
