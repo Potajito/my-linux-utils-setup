@@ -192,6 +192,11 @@ https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7
 
 https://gist.github.com/charveey/091b11ea554436d15c7fffcf01129a8a
 
+Pero mejor:
+en /home/user/.config/fontconfig/ lo que está en: https://github.com/Potajito/my-linux-utils-setup/tree/main/fontconfig
+
+en Kde settings-Fonts: Noto Sanas 12, Antialias check, subpixel RGB, Hinting Medium
+
 adobe-base-14-fonts
 cantarell-fonts
 gnu-free-fonts
