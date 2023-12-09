@@ -184,4 +184,14 @@ https://codeberg.org/rtcqs/rtcqs para ver que el realtime y el audio tal esten e
 # Fonts
 
 https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7
+
 https://gist.github.com/charveey/091b11ea554436d15c7fffcf01129a8a
+
+adobe-base-14-fonts
+cantarell-fonts
+gnu-free-fonts
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
+ttf-ms-fonts
+ttf-google
