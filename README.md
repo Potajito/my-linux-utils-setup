@@ -91,7 +91,6 @@ NVIDIA: sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvid
 AMD: sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 
 # Packages for wayland
-plasma-wayland-session
 
 wayland
 
@@ -156,9 +155,6 @@ Flag for using wayland + middle click scroll
 Flags útiles chromium:
 
 `--use-gl=desktop --enable-features=VaapiVideoDecoder,VaapiVideoEncoder,CanvasOopRasterization --disable-features=UseChromeOSDirectVideoDecoder,UseOzonePlatform --ignore-gpu-blocklist --disable-gpu-driver-bug-workarounds --enable-gpu-rasterization --canvas-oop-rasterization --enable-zero-copy %U`
-env útiles Firefox:
-
-MOZ_ENABLE_WAYLAND=1 (should be on /etc/enviroment)
 
 # Nvidia hardware decode acceleration
 https://github.com/elFarto/nvidia-vaapi-driver
