@@ -2,6 +2,8 @@
 Useful packages and instructions when setting up linux
 
 # Packages
+plasma-workspace
+
 breeze-gtk
 
 breeze-plymouth
