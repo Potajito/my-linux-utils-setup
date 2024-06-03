@@ -1,0 +1,9 @@
+ujust fix-steam-download-speed
+ujust pstate-force-enable            # Force-enable AMD pstate
+
+rpm-ostree install mscore-fonts-all
+rpm-ostree install goverlay
+rpm-ostree install android-tools
+rpm-ostree install vopono.rpm
+
+para ver paquetes instalados: rpm -qa | grep -i nombrepaquete
