@@ -1,0 +1,37 @@
+// ==UserScript==
+// @name         Fuck YouTube Normalization
+// @namespace    http://tampermonkey.net/
+// @version      v0.Yo.Mama-poops
+// @description  I don't know this garbo lang
+// @author       adamnejm
+// @match        https://www.youtube.com/*
+// @match        https://youtube.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    function get_fake_volume(){
+        var slider = document.getElementsByClassName("ytp-volume-panel")[0];
+        if (slider) {
+            var slider_volume = Number(slider.getAttribute("aria-valuenow"));
+            return Math.pow(slider_volume / 100, 3);
+        } else {
+            return 0;
+        }
+    }
+
+    const {get, set} = Object.getOwnPropertyDescriptor(HTMLMediaElement.prototype, 'volume');
+    Object.defineProperty(HTMLMediaElement.prototype, 'volume', {
+        get(){
+            return get_fake_volume();
+        },
+        set(originalVolume){
+            setTimeout(() => {
+                set.call(this, get_fake_volume());
+            }, 0);
+        }
+    });
+
+})();
