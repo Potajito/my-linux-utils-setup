@@ -2,19 +2,13 @@
 Useful packages and instructions when setting up linux
 
 # Packages
-plasma-workspace
-
-breeze-gtk
-
-breeze-plymouth
-
 dolphin-plugins
 
 xdg-desktop-portal-gnome (fuentes no mierdas en flatpaks)
 
 xdg-desktop-portal-gtk
 
-xdg-desktop-portal-kde
+xdg-desktop-portal-kde (de los portales, instalar este por ultimo)
 
 gamemode
 
@@ -48,8 +42,6 @@ lutris
 
 noto-fonts
 
-noto-fonts-emoji-apple
-
 noto-fonts-extra
 
 ttf-ms-fonts
@@ -72,13 +64,10 @@ remmina (para el remote desktop)
 
 spectacle (screenshots, seguramente esté ya instalado)
 
-gpu-screen-recorder-gtk
-
 xpadneo (si tienes mando de xbox one, si tienes de 360 usa xpad-dkms-git si tienes genérico puede que funcione sin más o con este último)
 
-peek (make gifs from screen) 
 
-WIne:
+Wine:
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
 lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo \
@@ -94,25 +83,17 @@ AMD: sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 
 # Packages for wayland
 
-wayland
+qt6-imageformats
 
-wayland-utils
+qt5-imageformats
 
 qt5-wayland
 
 qt6-wayland
 
-pipewire
-
-pipewire-jack
-
-pipewire-pulse
-
-pipewire-alsa
-
 pipewire-v4l2
 
-wireplumber
+v4l2loopback-dkms (para la cámara virtual del obs)
 
 kwayland-integration
 
@@ -121,6 +102,8 @@ lib32-pipewire
 lib32-pipewire-jack
 
 lib32-pipewire-v4l2
+
+(Esto es ya automatico todo, lo dejo por referencia si algo usa grub)
 
 If on Nvidia, make sure drm.mode.set is configured (should be automatic if propietary nvidia driver installed):
 `
@@ -158,7 +141,7 @@ Flags útiles chromium:
 
 `--use-gl=desktop --enable-features=VaapiVideoDecoder,VaapiVideoEncoder,CanvasOopRasterization --disable-features=UseChromeOSDirectVideoDecoder,UseOzonePlatform --ignore-gpu-blocklist --disable-gpu-driver-bug-workarounds --enable-gpu-rasterization --canvas-oop-rasterization --enable-zero-copy %U`
 
-# Nvidia hardware decode acceleration
+# Nvidia hardware decode acceleration (diría que ya no hace falta, yo no lo tengo ya vamos)
 https://github.com/elFarto/nvidia-vaapi-driver
 
 # Wayland workarrounds
@@ -167,9 +150,12 @@ Jellyfin media player (flatpak o jellyfin-media-player) con flag: --disable-gpu
 # Recommended Flatpaks (Installed via "Discovery")
 Plex
 
+
+gpu-screen-recorder
+
 Jellyfin Media Player
 
-Discord (better to use PWA for firefox)
+Vesktop
 
 OBS
 
@@ -177,10 +163,6 @@ Zoom
 
 # My hardware
 polycrhomatic, open razer
-
-it87-dkms-git (sensores placa)
-
-zenpower3-dkms
 
 https://codeberg.org/rtcqs/rtcqs para ver que el realtime y el audio tal esten en su sitio
 
